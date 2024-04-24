@@ -130,7 +130,7 @@
 
     .service .maincontainer 
     {
-        width: 258px;
+        width: 257px;
         height: 16vw;
     }
 
@@ -211,6 +211,10 @@
         -moz-transform: translateX(-1.45vw);
         -ms-transform: translateX(-1.45vw);
         -o-transform: translateX(-1.45vw);
+    }
+
+    .service .back .back-btn {
+        margin-top: -5px;
     }
 
     /* Footer Section */
@@ -767,6 +771,11 @@
     .service .service-card-container .service-section-card-container 
     {
         margin-top: 20px;
+    }
+
+    .service .back .back-btn 
+    {
+        margin-top: -16px;
     }
 
     /* Footer Section */
