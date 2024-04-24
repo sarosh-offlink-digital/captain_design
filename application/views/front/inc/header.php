@@ -47,7 +47,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"></li>
     <link rel="stylesheet" href="assets/front/css/main.css">
     <link rel="stylesheet" href="assets/front/css/responsive.css">
-    <title>HELLO</title>
+    <title>Captain Design Agency</title>
 </head>
 <body>
 
