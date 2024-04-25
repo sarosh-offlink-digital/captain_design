@@ -74,7 +74,7 @@
 			<header class="header_wrapper">
 				<nav class="navbar navbar-expand-lg fixed-top">
 					<div class="container">
-						<a class="navbar-brand" href="index.php">
+						<a class="navbar-brand" href="<?= base_url("");?>">
 							<img decoding="async" src="assets/front/images/logo.png" class="img-fluid" alt="logo">
 						</a>
 						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -84,7 +84,7 @@
 						<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 							<ul class="navbar-nav menu-navbar-nav">
 								<li class="nav-item">
-									<a class="nav-link" aria-current="page" href="index.php">Home</a>
+									<a class="nav-link" aria-current="page" href="<?= base_url("");?>">Home</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="about.php">About</a>
@@ -136,7 +136,7 @@
 									<a class="nav-link" href="portfolio.php">Portfolio</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="contact">Contact Us</a>
+									<a class="nav-link" href="<?= base_url("contact");?>">Contact Us</a>
 								</li>
 								<li class="nav-item nav-btn mt-3 mt-lg-0">
 									<a class="main-btn" href="#">Live Chat</a>

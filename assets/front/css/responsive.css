@@ -710,7 +710,10 @@
         font-size: 14px;
         line-height: 24px;
     }
-
+    /* TRUST */
+    .trust-back{
+        display: none;
+    }
     /* Service Section */
 
     .service .service-text-img 
@@ -777,7 +780,7 @@
     {
         margin-top: -16px;
     }
-
+   
     /* Footer Section */
 
     .footer-wrapper .footer-information .footer-information-row .footer-information-col-1 
@@ -806,7 +809,9 @@
     }
 }
 
-
+@media only screen and (min-width: 561px){
+   
+}
 
 @media only screen and (max-width: 575px){
 
@@ -969,6 +974,18 @@
         top: 80%;
         rotate: 90deg;
     }
+    .logoCrousal-mobile-view{
+        display: block;
+    }
+    .brandingCrousal-mobile-view{
+        display: none;
+    }
+    .webCrousal-mobile-view{
+        display: none;
+    }
+    .marketingCrousal-mobile-view{
+        display: none;
+    } 
     
     .contact-icons{
     margin: 10vw 5vw;
@@ -1032,6 +1049,13 @@
     .case-study-para{
         width: 100%;
     }
+    /* .case-study-all-cards{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    } */
+    
 
     /* PORTFOLIO SECTION */
     .image-container {
@@ -1039,6 +1063,78 @@
     }
     .logoCrousal-Mobile{
         display: none;
+    }
+    .brandingCrousal-Mobile{
+        display: none;
+    }
+    .webCrousal-Mobile{
+        display: none;
+    }
+    .marketingCrousal-Mobile{
+        display: none;
+    }
+    /* Pricing Section */
+    .pricing-box1{
+        margin-top: 2vw;
+        height: 450px;
+        width: 400px;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, #d45934, var(--third-color));
+        color: var(--text-color);
+      
+    }
+    
+    .pricing-box2{
+        margin-top: 2vw;
+        height: 450px;
+        width: 400px;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, #4434d4, rgb(110, 110, 240));
+        color: var(--text-color);
+        
+    }
+    
+    .pricing-box3{
+        margin-top: 2vw;
+        height: 450px;
+        width: 400px;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, #e77878, rgb(204, 28, 28));
+        color: var(--text-color);
+        
+    }
+    .pricing-box4{
+        margin-top: 2vw;
+        height: 450px;
+        width: 400px;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, #c72ac7, rgb(109, 2, 104));
+        color: var(--text-color);
+      
+    }
+    .pricing-box5{
+        margin-top: 2vw;
+        height: 450px;
+        width: 400px;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, #2cb1da, rgb(0, 96, 160));
+        color: var(--text-color);
+      
+    }
+    .pricing-box6{
+        margin-top: 2vw;
+        height: 450px;
+        width: 400px;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, #129156, rgb(55, 211, 146));
+        color: var(--text-color);
+      
+    }
+
+    /* Testimonial Section */
+    .testimonial-section-quote{
+        width: 100%;
+        padding: 10px 5px;
     }
 }
 @media only screen and (max-width: 376px)
@@ -1053,7 +1149,7 @@
 
     .service
     {
-        min-height: 188vh;
+        min-height: 160vh;
     }
 
     .service .back 
@@ -1073,6 +1169,73 @@
         padding: 4px 9px;
         font-weight: 600;
         font-size: 9px;
+    }
+    /* Case Study */
+    .case-study-text{
+        margin: 0 0px;
+    }
+    /* Pricing Section */
+    .pricing-box1{
+        margin-top: 2vw;
+        height: 450px;
+        width: 300px;
+        overflow-x: hidden;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, #d45934, var(--third-color));
+        color: var(--text-color);
+      
+    }
+    
+    .pricing-box2{
+        margin-top: 2vw;
+        height: 450px;
+        width: 300px;
+        overflow-x: hidden;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, #4434d4, rgb(110, 110, 240));
+        color: var(--text-color);
+        
+    }
+    
+    .pricing-box3{
+        margin-top: 2vw;
+        height: 450px;
+        width: 300px;
+        border-radius: 20px;
+        overflow-x: hidden;
+        background-image: linear-gradient(to right, #e77878, rgb(204, 28, 28));
+        color: var(--text-color);
+        
+    }
+    .pricing-box4{
+        margin-top: 2vw;
+        height: 450px;
+        width: 300px;
+        border-radius: 20px;
+        overflow-x: hidden;
+        background-image: linear-gradient(to right, #c72ac7, rgb(109, 2, 104));
+        color: var(--text-color);
+      
+    }
+    .pricing-box5{
+        margin-top: 2vw;
+        height: 450px;
+        width: 300px;
+        border-radius: 20px;
+        overflow-x: hidden;
+        background-image: linear-gradient(to right, #2cb1da, rgb(0, 96, 160));
+        color: var(--text-color);
+      
+    }
+    .pricing-box6{
+        margin-top: 2vw;
+        height: 450px;
+        width: 300px;
+        border-radius: 20px;
+        overflow-x: hidden;
+        background-image: linear-gradient(to right, #129156, rgb(55, 211, 146));
+        color: var(--text-color);
+      
     }
 
     /* Footer Section */
