@@ -639,8 +639,8 @@ button, input {
 .hero-section-heading{
     overflow: hidden;
     display: inline-block;
-    transform: translateX(-100%);
-    animation: revealText 2s forwards;
+    transform: translateX(-50%);
+    animation: revealText 1s forwards;
 }
 
   .headingHeroPage{
@@ -1404,13 +1404,13 @@ input:focus~label
 .pricing-scroll::-webkit-scrollbar-thumb 
 {
     
-    background: orange;
+    background: rgb(16, 47, 105);
 
 }
 
 .pricing-scroll{
     padding: 20px;
-    height: 200px;
+    height: 250px;
     overflow: auto;
     overflow-x: hidden;
 }
@@ -1436,7 +1436,7 @@ input:focus~label
 
 .pricing-scroll2{
     padding: 20px;
-    height: 200px;
+    height: 250px;
     overflow: auto;
     overflow-x: hidden;
 }
@@ -1457,13 +1457,13 @@ input:focus~label
 .pricing-scroll3::-webkit-scrollbar-thumb 
 {
     
-    background: rgb(201, 70, 70);
+    background: rgb(14, 4, 146);
 
 }
 
 .pricing-scroll3{
     padding: 20px;
-    height: 200px;
+    height: 250px;
     overflow: auto;
     overflow-x: hidden;
 }
@@ -1491,7 +1491,7 @@ input:focus~label
 
 .pricing-scroll4{
     padding: 20px;
-    height: 200px;
+    height: 250px;
     overflow: auto;
     overflow-x: hidden;
 }
@@ -1518,7 +1518,7 @@ input:focus~label
 
 .pricing-scroll5{
     padding: 20px;
-    height: 200px;
+    height: 250px;
     overflow: auto;
     overflow-x: hidden;
 }
@@ -1545,7 +1545,7 @@ input:focus~label
 
 .pricing-scroll6{
     padding: 20px;
-    height: 200px;
+    height: 250px;
     overflow: auto;
     overflow-x: hidden;
 }
@@ -1580,6 +1580,7 @@ input:focus~label
 .pricing-cost-before{
     text-decoration: line-through;
     font-size: 30px;
+    color: var(--text-color);
 }
 
 
@@ -1592,7 +1593,7 @@ input:focus~label
     height: 450px;
     width: 450px;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #d45934, var(--third-color));
+    background-image: linear-gradient(to right, #3157a8, #4573b8 );
     color: var(--text-color);
   
 }
@@ -1612,7 +1613,7 @@ input:focus~label
     height: 450px;
     width: 450px;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #e77878, rgb(204, 28, 28));
+    background-image: linear-gradient(to right, #3432b9, rgb(28, 30, 102));
     color: var(--text-color);
     
 }
@@ -1667,7 +1668,7 @@ input:focus~label
 .pricing-box-icons-x{
     padding-left: 10px;
     padding-bottom: 15px;
-    color: rgb(255, 6, 6);
+    color: rgb(167, 165, 165);
 }
 .order-button{
     margin-top: 8px;

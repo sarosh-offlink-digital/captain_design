@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row align-items-center hero-content">
             <div class="col-lg-6 text-center text-lg-start order-lg-1 order-1">
-                <div class="hero-section-heading"><h1><span class="headingHeroPage">From Creation to</span><br> Concept! We Got <br>You Covered!</h1>
+                <div class=""><h1><span class="headingHeroPage">From Creation to</span><br> Concept! We Got <br>You Covered!</h1>
                 </div>
                 <p>Are you fed up with the same old boring website design? We believe your web presence deserves to stand out. We are a passionate team of creative designers and technical developers who believe in creating magic. Our goal is to amaze you through our craft.</p>
                 <a class="second-btn mt-4" href="#">Learn More</a>
@@ -441,7 +441,7 @@
 
     <!-- MOBILE LOGO CROUSALS START-->
     <div class="logoCrousal-mobile-view">
-        <div class="pricing-box1 container">
+        <div class="container pricing-box1" >
             <h4 class="pricing-box-heading text-center">BASIC PACKAGE</h4>
             <h4 class="pricing-cost text-center">49$ <span class="pricing-cost-before">30$</span></h4>
             <div class="d-flex justify-content-center">
